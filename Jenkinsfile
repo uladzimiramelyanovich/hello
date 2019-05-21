@@ -13,7 +13,7 @@ node('agent') {
   }
   stage('Build') {
     sh 'pwd'
-    sh 'cd hello'
+    //sh 'cd hello'
 	sh 'cmake .'
   }
   stage('Test') {
