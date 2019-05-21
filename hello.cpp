@@ -1,6 +1,6 @@
-#include <iostream>
-#include "hello.h"
+#include<iostream>
 
-void hello(){
-	std::cout << "Hello World!\n";
+int main(int argc, char *argv[]){
+ std::cout << "Hello World!" << std::endl;
+ return 0;
 }
